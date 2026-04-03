@@ -1,0 +1,483 @@
+{
+  "version": 1,
+  "generated_at": "2026-04-03T08:20:59.878Z",
+  "skill_count": 68,
+  "skills": [
+    {
+      "name": "agent-browser",
+      "description": "Browser automation CLI for AI agents.",
+      "category": "browser-web",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/agent-browser",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill agent-browser"
+    },
+    {
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration.",
+      "category": "other",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/algorithmic-art",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill algorithmic-art"
+    },
+    {
+      "name": "apple-notes",
+      "description": "Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and export notes).",
+      "category": "productivity",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/apple-notes",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill apple-notes"
+    },
+    {
+      "name": "apple-reminders",
+      "description": "Manage Apple Reminders via remindctl CLI (list, add, edit, complete, delete).",
+      "category": "productivity",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/apple-reminders",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill apple-reminders"
+    },
+    {
+      "name": "bear-notes",
+      "description": "Create, search, and manage Bear notes via grizzly CLI.",
+      "category": "productivity",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/bear-notes",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill bear-notes"
+    },
+    {
+      "name": "blogwatcher",
+      "description": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
+      "category": "research",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/blogwatcher",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill blogwatcher"
+    },
+    {
+      "name": "bluebubbles",
+      "description": "Use when you need to send or manage iMessages via BlueBubbles (recommended iMessage integration).",
+      "category": "social",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/bluebubbles",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill bluebubbles"
+    },
+    {
+      "name": "camsnap",
+      "description": "Capture frames or clips from RTSP/ONVIF cameras.",
+      "category": "infrastructure",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/camsnap",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill camsnap"
+    },
+    {
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy.",
+      "category": "media",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/canvas-design",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill canvas-design"
+    },
+    {
+      "name": "claude-api",
+      "description": "Build apps with the Claude API or Anthropic SDK.",
+      "category": "ai-llm",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/claude-api",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill claude-api"
+    },
+    {
+      "name": "clawhub",
+      "description": "Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com.",
+      "category": "dev-tools",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/clawhub",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill clawhub"
+    },
+    {
+      "name": "code-simplifier",
+      "description": ">",
+      "category": "dev-tools",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/code-simplifier",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill code-simplifier"
+    },
+    {
+      "name": "context-architect",
+      "description": "Design context architecture, workspace docs, and system prompts for AI agents or app builds.",
+      "category": "ai-llm",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/context-architect",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill context-architect"
+    },
+    {
+      "name": "discord",
+      "description": "Discord ops via the message tool (channel=discord).",
+      "category": "social",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/discord",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill discord"
+    },
+    {
+      "name": "doc-coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation.",
+      "category": "productivity",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/doc-coauthoring",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill doc-coauthoring"
+    },
+    {
+      "name": "docx",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files).",
+      "category": "infrastructure",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/docx",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill docx"
+    },
+    {
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is...",
+      "category": "dev-tools",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/find-skills",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill find-skills"
+    },
+    {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality.",
+      "category": "react-frontend",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/frontend-design",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill frontend-design"
+    },
+    {
+      "name": "gemini",
+      "description": "Gemini CLI for one-shot Q&A, summaries, and generation.",
+      "category": "ai-llm",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/gemini",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill gemini"
+    },
+    {
+      "name": "github",
+      "description": "GitHub operations via `gh` CLI: issues, PRs, CI runs, code review, API queries.",
+      "category": "dev-tools",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/github",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill github"
+    },
+    {
+      "name": "gog",
+      "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
+      "category": "productivity",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/gog",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill gog"
+    },
+    {
+      "name": "goplaces",
+      "description": "Query Google Places API (New) via the goplaces CLI for text search, place details, resolve, and reviews.",
+      "category": "productivity",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/goplaces",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill goplaces"
+    },
+    {
+      "name": "imsg",
+      "description": "iMessage/SMS CLI for listing chats, reading history, and sending messages via macOS Messages.app.",
+      "category": "social",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/imsg",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill imsg"
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external servi...",
+      "category": "dev-tools",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/mcp-builder",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill mcp-builder"
+    },
+    {
+      "name": "mcporter",
+      "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc ...",
+      "category": "dev-tools",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/mcporter",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill mcporter"
+    },
+    {
+      "name": "model-usage",
+      "description": "Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recen...",
+      "category": "infrastructure",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/model-usage",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill model-usage"
+    },
+    {
+      "name": "nano-pdf",
+      "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+      "category": "infrastructure",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/nano-pdf",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill nano-pdf"
+    },
+    {
+      "name": "notion",
+      "description": "Notion API for creating and managing pages, databases, and blocks.",
+      "category": "productivity",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/notion",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill notion"
+    },
+    {
+      "name": "obsidian",
+      "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+      "category": "productivity",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/obsidian",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill obsidian"
+    },
+    {
+      "name": "openai-image-gen",
+      "description": "Batch-generate images via OpenAI Images API.",
+      "category": "media",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/openai-image-gen",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill openai-image-gen"
+    },
+    {
+      "name": "openai-whisper",
+      "description": "Local speech-to-text with the Whisper CLI (no API key).",
+      "category": "media",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/openai-whisper",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill openai-whisper"
+    },
+    {
+      "name": "oracle",
+      "description": "Best practices for using the oracle CLI (prompt + file bundling, engines, sessions, and file attachment patterns).",
+      "category": "infrastructure",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/oracle",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill oracle"
+    },
+    {
+      "name": "pdf",
+      "description": "Use this skill whenever the user wants to do anything with PDF files.",
+      "category": "infrastructure",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/pdf",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill pdf"
+    },
+    {
+      "name": "peekaboo",
+      "description": "Capture and automate macOS UI with the Peekaboo CLI.",
+      "category": "infrastructure",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/peekaboo",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill peekaboo"
+    },
+    {
+      "name": "pptx",
+      "description": "Use this skill any time a .pptx file is involved in any way — as input, output, or both.",
+      "category": "infrastructure",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/pptx",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill pptx"
+    },
+    {
+      "name": "remotion-best-practices",
+      "description": "Best practices for Remotion - Video creation in React",
+      "category": "media",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/remotion-best-practices",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill remotion-best-practices"
+    },
+    {
+      "name": "remotion-transitions",
+      "description": "This skill should be used when the user asks to create custom Remotion transitions, asks about \"cool transitions\", \"c...",
+      "category": "media",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/remotion-transitions",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill remotion-transitions"
+    },
+    {
+      "name": "research-swarm",
+      "description": "Launch a multi-perspective research swarm — 4 parallel agents (Advocate, Skeptic, Market, First-Principles) search th...",
+      "category": "research",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/research-swarm",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill research-swarm"
+    },
+    {
+      "name": "sag",
+      "description": "ElevenLabs text-to-speech with mac-style say UX.",
+      "category": "media",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/sag",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill sag"
+    },
+    {
+      "name": "scroll-cinema",
+      "description": "Transforms a video into a premium scroll-driven animated website with canvas frame rendering, GSAP + Lenis choreograp...",
+      "category": "media",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/scroll-cinema",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill scroll-cinema"
+    },
+    {
+      "name": "site-design-scanner",
+      "description": "Comprehensive website design analysis using Playwright MCP.",
+      "category": "browser-web",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/site-design-scanner",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill site-design-scanner"
+    },
+    {
+      "name": "site-replicator",
+      "description": "Reverse-engineer any website from a URL and rebuild it as a working local Vite project.",
+      "category": "browser-web",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/site-replicator",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill site-replicator"
+    },
+    {
+      "name": "slack",
+      "description": "Use when you need to control Slack from OpenClaw via the slack tool, including reacting to messages or pinning/unpinn...",
+      "category": "social",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/slack",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill slack"
+    },
+    {
+      "name": "songsee",
+      "description": "Generate spectrograms and feature-panel visualizations from audio with the songsee CLI.",
+      "category": "media",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/songsee",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill songsee"
+    },
+    {
+      "name": "stripe-best-practices",
+      "description": "Best practices for building Stripe integrations.",
+      "category": "react-frontend",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/stripe-best-practices",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill stripe-best-practices"
+    },
+    {
+      "name": "summarize",
+      "description": "Summarize or extract text/transcripts from URLs, podcasts, and local files (great fallback for “transcribe this YouTu...",
+      "category": "research",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/summarize",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill summarize"
+    },
+    {
+      "name": "task-architect",
+      "description": "Discovery-first execution skill that reads relevant files and asks sequential clarifying questions before any work be...",
+      "category": "ai-llm",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/task-architect",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill task-architect"
+    },
+    {
+      "name": "tavily-best-practices",
+      "description": "Build production-ready Tavily integrations with best practices baked in.",
+      "category": "research",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/tavily-best-practices",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill tavily-best-practices"
+    },
+    {
+      "name": "tavily-cli",
+      "description": "|",
+      "category": "research",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/tavily-cli",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill tavily-cli"
+    },
+    {
+      "name": "tavily-crawl",
+      "description": "|",
+      "category": "research",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/tavily-crawl",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill tavily-crawl"
+    },
+    {
+      "name": "tavily-extract",
+      "description": "|",
+      "category": "research",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/tavily-extract",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill tavily-extract"
+    },
+    {
+      "name": "tavily-map",
+      "description": "|",
+      "category": "research",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/tavily-map",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill tavily-map"
+    },
+    {
+      "name": "tavily-research",
+      "description": "|",
+      "category": "research",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/tavily-research",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill tavily-research"
+    },
+    {
+      "name": "tavily-search",
+      "description": "|",
+      "category": "research",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/tavily-search",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill tavily-search"
+    },
+    {
+      "name": "theme-factory",
+      "description": "Toolkit for styling artifacts with a theme.",
+      "category": "media",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/theme-factory",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill theme-factory"
+    },
+    {
+      "name": "things-mac",
+      "description": "Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL scheme; read/search/list from the lo...",
+      "category": "productivity",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/things-mac",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill things-mac"
+    },
+    {
+      "name": "trello",
+      "description": "Manage Trello boards, lists, and cards via the Trello REST API.",
+      "category": "productivity",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/trello",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill trello"
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "description": "",
+      "category": "react-frontend",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/vercel-composition-patterns",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill vercel-composition-patterns"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering.",
+      "category": "react-frontend",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/vercel-react-best-practices",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill vercel-react-best-practices"
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "description": "",
+      "category": "react-frontend",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/vercel-react-native-skills",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill vercel-react-native-skills"
+    },
+    {
+      "name": "video-frames",
+      "description": "Extract frames or short clips from videos using ffmpeg.",
+      "category": "media",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/video-frames",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill video-frames"
+    },
+    {
+      "name": "wacli",
+      "description": "Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).",
+      "category": "social",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/wacli",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill wacli"
+    },
+    {
+      "name": "weather",
+      "description": "Get current weather and forecasts via wttr.in or Open-Meteo.",
+      "category": "infrastructure",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/weather",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill weather"
+    },
+    {
+      "name": "web-design-guidelines",
+      "description": "Review UI code for Web Interface Guidelines compliance.",
+      "category": "browser-web",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/web-design-guidelines",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill web-design-guidelines"
+    },
+    {
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright.",
+      "category": "browser-web",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/webapp-testing",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill webapp-testing"
+    },
+    {
+      "name": "world-build",
+      "description": "Build a complete creative world for AI video/image production — characters, settings, visual style, and continuity ru...",
+      "category": "media",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/world-build",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill world-build"
+    },
+    {
+      "name": "xlsx",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output.",
+      "category": "infrastructure",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/xlsx",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill xlsx"
+    },
+    {
+      "name": "xurl",
+      "description": "A CLI tool for making authenticated requests to the X (Twitter) API.",
+      "category": "social",
+      "github_url": "https://github.com/BEIRUX/agent-skills/tree/main/xurl",
+      "install_command": "npx playbooks add skill BEIRUX/agent-skills --skill xurl"
+    }
+  ]
+}
